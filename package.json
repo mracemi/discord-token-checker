@@ -1,0 +1,27 @@
+{
+  "name": "discord-token-checker",
+  "version": "1.0.0",
+  "description": "Discord Token Checker Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "set NODE_ENV=development && electron .",
+    "build": "electron-builder",
+    "prod": "electron ."
+  },
+  "keywords": [
+    "discord",
+    "token",
+    "checker"
+  ],
+  "author": "Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^24.0.0",
+    "electron-builder": "^24.0.0",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}

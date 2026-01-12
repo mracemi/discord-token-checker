@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+Thumbs.db
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+config.json
+tokens.txt
+sample_tokens.txt
+*.tmp
+*.temp
